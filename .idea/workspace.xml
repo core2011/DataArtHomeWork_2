@@ -3,6 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="437cabfb-b0e9-4bd8-9f55-0efebe554c78" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dataart/homework/fishs/Carp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataart/homework/fishs/Carp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dataart/homework/fishs/Ram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataart/homework/fishs/Ram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dataart/homework/logic/BusinessLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataart/homework/logic/BusinessLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dataart/homework/mammals/Eagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataart/homework/mammals/Eagle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dataart/homework/mammals/Kangaroo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataart/homework/mammals/Kangaroo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dataart/homework/mammals/Lynx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataart/homework/mammals/Lynx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dataart/homework/mammals/Ostrich.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataart/homework/mammals/Ostrich.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dataart/homework/mammals/Raccoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataart/homework/mammals/Raccoon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dataart/homework/parentClases/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataart/homework/parentClases/Animal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

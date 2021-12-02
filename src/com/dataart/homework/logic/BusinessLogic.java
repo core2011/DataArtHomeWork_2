@@ -1,13 +1,16 @@
 package com.dataart.homework.logic;
 
 import com.dataart.homework.interfaces.SkillEat;
-import com.dataart.homework.listenum.*;
+import com.dataart.homework.listenum.KindFamily;
+import com.dataart.homework.listenum.KindLive;
 import com.dataart.homework.parentClases.Animal;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
+
+import static com.dataart.homework.listenum.KindFamily.*;
 
 public class BusinessLogic {
 
@@ -29,13 +32,13 @@ public class BusinessLogic {
 
     public static void countSquareForZoo(ArrayList<Animal> listAnimal) {
         HashMap<KindFamily, Integer> mapNeedCount = new HashMap<>();
-        mapNeedCount.put(KindFamily.LYNX, 5);
-        mapNeedCount.put(KindFamily.RACCOON, 4);
-        mapNeedCount.put(KindFamily.KANGAROO, 2);
-        mapNeedCount.put(KindFamily.EAGLE, 7);
-        mapNeedCount.put(KindFamily.OSTRICH, 3);
-        mapNeedCount.put(KindFamily.CARP, 15);
-        mapNeedCount.put(KindFamily.RAM, 7);
+        mapNeedCount.put(LYNX, 5);
+        mapNeedCount.put(RACCOON, 4);
+        mapNeedCount.put(KANGAROO, 2);
+        mapNeedCount.put(EAGLE, 7);
+        mapNeedCount.put(OSTRICH, 3);
+        mapNeedCount.put(CARP, 15);
+        mapNeedCount.put(RAM, 7);
 
         int count = 0;
         for (Animal animal : listAnimal) {

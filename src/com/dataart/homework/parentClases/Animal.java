@@ -8,6 +8,8 @@ import com.dataart.homework.listenum.KindLive;
 
 import java.time.LocalDate;
 
+import static com.dataart.homework.listenum.KindAnimal.*;
+
 public abstract class Animal implements SkillEat {
     private String name;
     private LocalDate dateBorn;
@@ -43,10 +45,10 @@ public abstract class Animal implements SkillEat {
         return whereLive;
     }
 
-    public void eat(String giveFood){
-        if ((kindAnimal == KindAnimal.OMNIVOROUS) ||
-                (kindAnimal == KindAnimal.MEATEATING && giveFood.equalsIgnoreCase("meat")) ||
-                (kindAnimal == KindAnimal.HERBIVORE && giveFood.equalsIgnoreCase("grass"))) {
+    public void eat(String giveFood) {
+        if ((kindAnimal == OMNIVOROUS) ||
+                (kindAnimal == MEATEATING && giveFood.equalsIgnoreCase("meat")) ||
+                (kindAnimal == HERBIVORE && giveFood.equalsIgnoreCase("grass"))) {
             System.out.println("I am " + getName() + " and I will eat " + giveFood);
         } else {
             System.out.println("I am " + getName() + " and I willn't eat " + giveFood);
