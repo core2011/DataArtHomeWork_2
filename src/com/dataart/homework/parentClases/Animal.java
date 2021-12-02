@@ -8,7 +8,7 @@ import com.dataart.homework.listenum.KindLive;
 
 import java.time.LocalDate;
 
-public class Animal implements SkillEat {
+public abstract class Animal implements SkillEat {
     private String name;
     private LocalDate dateBorn;
     public int maxWeight;
