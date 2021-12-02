@@ -1,10 +1,13 @@
 package com.dataart.homework;
 
-import com.dataart.homework.logic.BusinessLogic;
-import com.dataart.homework.parentClases.Animal;
-import com.dataart.homework.fishs.*;
+import com.dataart.homework.fishs.Carp;
+import com.dataart.homework.fishs.Ram;
 import com.dataart.homework.mammals.*;
+import com.dataart.homework.parentClases.Animal;
+
 import java.util.ArrayList;
+
+import static com.dataart.homework.logic.BusinessLogic.*;
 
 public class HomeWork2 {
     public static void main(String[] args) {
@@ -19,10 +22,10 @@ public class HomeWork2 {
         listAnimal.add(new Carp("Carp", "12-08-2021"));
         listAnimal.add(new Ram("Taran", "18-06-2020"));
 
-        BusinessLogic.printAllProperty(listAnimal);
-        BusinessLogic.callEat(listAnimal);
-        BusinessLogic.countSquareForZoo(listAnimal);
-        BusinessLogic.countWeightByWhereLive(listAnimal);
+        printAllProperty(listAnimal);
+        callEat(listAnimal);
+        countSquareForZoo(listAnimal);
+        countWeightByWhereLive(listAnimal);
 
     }
 }
