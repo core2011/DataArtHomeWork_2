@@ -31,14 +31,15 @@ public class BusinessLogic {
     }
 
     public static void countSquareForZoo(ArrayList<Animal> listAnimal) {
-        HashMap<KindFamily, Integer> mapNeedCount = new HashMap<>();
-        mapNeedCount.put(LYNX, 5);
-        mapNeedCount.put(RACCOON, 4);
-        mapNeedCount.put(KANGAROO, 2);
-        mapNeedCount.put(EAGLE, 7);
-        mapNeedCount.put(OSTRICH, 3);
-        mapNeedCount.put(CARP, 15);
-        mapNeedCount.put(RAM, 7);
+        HashMap<KindFamily, Integer> mapNeedCount = new HashMap<KindFamily, Integer>() {{
+            put(LYNX, 5);
+            put(RACCOON, 4);
+            put(KANGAROO, 2);
+            put(EAGLE, 7);
+            put(OSTRICH, 3);
+            put(CARP, 15);
+            put(RAM, 7);
+        }};
 
         int count = 0;
         for (Animal animal : listAnimal) {
