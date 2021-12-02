@@ -1,9 +1,9 @@
 package com.dataart.homework;
 
+import com.dataart.homework.logic.BusinessLogic;
+import com.dataart.homework.parentClases.Animal;
 import com.dataart.homework.fishs.*;
 import com.dataart.homework.mammals.*;
-import com.dataart.homework.parentClases.Animal;
-
 import java.util.ArrayList;
 
 public class HomeWork2 {

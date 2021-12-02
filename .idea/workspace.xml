@@ -2,28 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="437cabfb-b0e9-4bd8-9f55-0efebe554c78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeWorkDataart_2/com/dataart/homework/BusinessLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWorkDataart_2/com/dataart/homework/logic/BusinessLogic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HomeWorkDataart_2/com/dataart/homework/HomeWork2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWorkDataart_2/com/dataart/homework/HomeWork2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HomeWorkDataart_2/com/dataart/homework/fishs/Carp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWorkDataart_2/com/dataart/homework/fishs/Carp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HomeWorkDataart_2/com/dataart/homework/fishs/Ram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWorkDataart_2/com/dataart/homework/fishs/Ram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeWorkDataart_2/com/dataart/homework/interfaces/LikeFood.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HomeWorkDataart_2/com/dataart/homework/mammals/Eagle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWorkDataart_2/com/dataart/homework/mammals/Eagle.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HomeWorkDataart_2/com/dataart/homework/mammals/Kangaroo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWorkDataart_2/com/dataart/homework/mammals/Kangaroo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HomeWorkDataart_2/com/dataart/homework/mammals/Lynx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWorkDataart_2/com/dataart/homework/mammals/Lynx.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HomeWorkDataart_2/com/dataart/homework/mammals/Ostrich.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWorkDataart_2/com/dataart/homework/mammals/Ostrich.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HomeWorkDataart_2/com/dataart/homework/mammals/Raccoon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWorkDataart_2/com/dataart/homework/mammals/Raccoon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeWorkDataart_2/com/dataart/homework/parentClases/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWorkDataart_2/com/dataart/homework/parentClases/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dataart/homework/BusinessLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataart/homework/BusinessLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/dataart/homework/HomeWork2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataart/homework/HomeWork2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dataart/homework/fishs/Carp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataart/homework/fishs/Carp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dataart/homework/fishs/Ram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataart/homework/fishs/Ram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dataart/homework/interfaces/LikeFood.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dataart/homework/mammals/Eagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataart/homework/mammals/Eagle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dataart/homework/mammals/Kangaroo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataart/homework/mammals/Kangaroo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dataart/homework/mammals/Lynx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataart/homework/mammals/Lynx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dataart/homework/mammals/Ostrich.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataart/homework/mammals/Ostrich.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dataart/homework/mammals/Raccoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataart/homework/mammals/Raccoon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dataart/homework/logic/BusinessLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataart/homework/logic/BusinessLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/dataart/homework/parentClases/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataart/homework/parentClases/Animal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,22 +100,22 @@
       <screen x="-1920" y="-75" width="1536" height="824" />
     </state>
     <state x="-1421" y="87" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824/-1920.-75.1536.824@-1920.-75.1536.824" timestamp="1638304104173" />
-    <state width="1492" height="210" key="GridCell.Tab.0.bottom" timestamp="1638441092262">
+    <state width="1492" height="210" key="GridCell.Tab.0.bottom" timestamp="1638456032447">
       <screen x="-1920" y="-75" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-75.1536.824@-1920.-75.1536.824" timestamp="1638441092262" />
-    <state width="1492" height="210" key="GridCell.Tab.0.center" timestamp="1638441092261">
+    <state width="1492" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-75.1536.824@-1920.-75.1536.824" timestamp="1638456032447" />
+    <state width="1492" height="210" key="GridCell.Tab.0.center" timestamp="1638456032446">
       <screen x="-1920" y="-75" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-75.1536.824@-1920.-75.1536.824" timestamp="1638441092261" />
-    <state width="1492" height="210" key="GridCell.Tab.0.left" timestamp="1638441092261">
+    <state width="1492" height="210" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-75.1536.824@-1920.-75.1536.824" timestamp="1638456032446" />
+    <state width="1492" height="210" key="GridCell.Tab.0.left" timestamp="1638456032446">
       <screen x="-1920" y="-75" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-75.1536.824@-1920.-75.1536.824" timestamp="1638441092261" />
-    <state width="1492" height="210" key="GridCell.Tab.0.right" timestamp="1638441092261">
+    <state width="1492" height="210" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-75.1536.824@-1920.-75.1536.824" timestamp="1638456032446" />
+    <state width="1492" height="210" key="GridCell.Tab.0.right" timestamp="1638456032446">
       <screen x="-1920" y="-75" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-75.1536.824@-1920.-75.1536.824" timestamp="1638441092261" />
+    <state width="1492" height="210" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-75.1536.824@-1920.-75.1536.824" timestamp="1638456032446" />
     <state width="1492" height="261" key="GridCell.Tab.1.bottom" timestamp="1638433536857">
       <screen x="-1920" y="-75" width="1536" height="824" />
     </state>

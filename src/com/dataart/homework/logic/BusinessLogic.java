@@ -1,4 +1,4 @@
-package com.dataart.homework;
+package com.dataart.homework.logic;
 
 import com.dataart.homework.interfaces.SkillEat;
 import com.dataart.homework.listenum.*;

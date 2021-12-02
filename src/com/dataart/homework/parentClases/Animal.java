@@ -22,7 +22,7 @@ public abstract class Animal implements SkillEat {
         this.dateBorn = initDate(dateBorn);
     }
 
-    protected LocalDate initDate(String dateBorn) {
+    private LocalDate initDate(String dateBorn) {
         String[] strArr = dateBorn.split("-");
         return LocalDate.of(Integer.parseInt(strArr[2]), Integer.parseInt(strArr[1]), Integer.parseInt(strArr[0]));
     }
