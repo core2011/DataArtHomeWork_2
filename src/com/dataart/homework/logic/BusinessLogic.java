@@ -14,7 +14,7 @@ import static com.dataart.homework.listenum.KindFamily.*;
 
 public class BusinessLogic {
 
-    public static void printAllProperty(ArrayList listAnimal) {
+    public static void printAllProperty(ArrayList<Animal> listAnimal) {
         listAnimal.forEach(System.out::println);
         System.out.println();
     }
