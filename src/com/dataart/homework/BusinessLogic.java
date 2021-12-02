@@ -1,13 +1,11 @@
 package com.dataart.homework;
 
 import com.dataart.homework.interfaces.SkillEat;
-import com.dataart.homework.listenum.KindFamily;
-import com.dataart.homework.listenum.KindLive;
+import com.dataart.homework.listenum.*;
 import com.dataart.homework.parentClases.Animal;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
@@ -43,7 +41,7 @@ public class BusinessLogic {
         for (Animal animal : listAnimal) {
             count = count + (animal.needForLife * mapNeedCount.get(animal.kindFamily));
         }
-        System.out.println("For these animals " + mapNeedCount + " need " + count + " square meters");
+        System.out.println("For these animals " + mapNeedCount + " need " + count + " square meters in zoo");
         System.out.println();
     }
 

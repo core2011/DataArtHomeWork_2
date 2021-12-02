@@ -1,12 +1,9 @@
 package com.dataart.homework.mammals;
 
-import com.dataart.homework.listenum.KindAnimal;
-import com.dataart.homework.listenum.KindFamily;
-import com.dataart.homework.listenum.KindLive;
+import com.dataart.homework.listenum.*;
 import com.dataart.homework.parentClases.Mammals;
 
 public class Eagle extends Mammals {
-
 
     {
         maxWeight = 7;
@@ -18,11 +15,6 @@ public class Eagle extends Mammals {
 
     public Eagle(String name, String dateBorn) {
         super(name, dateBorn);
-    }
-
-    @Override
-    public void eat(String giveFood) {
-        super.likeFood(giveFood,kindAnimal);
     }
 
 }

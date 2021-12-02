@@ -1,7 +1,6 @@
 package com.dataart.homework.parentClases;
 
 
-import com.dataart.homework.interfaces.LikeFood;
 import com.dataart.homework.interfaces.SkillEat;
 import com.dataart.homework.listenum.KindAnimal;
 import com.dataart.homework.listenum.KindFamily;
@@ -9,7 +8,7 @@ import com.dataart.homework.listenum.KindLive;
 
 import java.time.LocalDate;
 
-public abstract class Animal implements SkillEat, LikeFood {
+public abstract class Animal implements SkillEat {
     private String name;
     private LocalDate dateBorn;
     public int maxWeight;
@@ -44,9 +43,7 @@ public abstract class Animal implements SkillEat, LikeFood {
         return whereLive;
     }
 
-    @Override
-    public void likeFood(String giveFood, KindAnimal kindAnimal) {
-
+    public void eat(String giveFood){
         if ((kindAnimal == KindAnimal.OMNIVOROUS) ||
                 (kindAnimal == KindAnimal.MEATEATING && giveFood.equalsIgnoreCase("meat")) ||
                 (kindAnimal == KindAnimal.HERBIVORE && giveFood.equalsIgnoreCase("grass"))) {

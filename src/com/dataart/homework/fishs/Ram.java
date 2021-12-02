@@ -1,8 +1,7 @@
 package com.dataart.homework.fishs;
 
-import com.dataart.homework.listenum.KindFamily;
+import com.dataart.homework.listenum.*;
 import com.dataart.homework.parentClases.Fishes;
-import com.dataart.homework.listenum.KindAnimal;
 
 //тарань
 public class Ram extends Fishes {
@@ -18,11 +17,6 @@ public class Ram extends Fishes {
         super(name, dateBorn);
     }
 
-
-    @Override
-    public void eat(String giveFood) {
-        super.likeFood(giveFood,kindAnimal);
-    }
 
 
 }

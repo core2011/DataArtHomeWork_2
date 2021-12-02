@@ -24,8 +24,5 @@ public class HomeWork2 {
         BusinessLogic.countSquareForZoo(listAnimal);
         BusinessLogic.countWeightByWhereLive(listAnimal);
 
-
-
-
     }
 }
